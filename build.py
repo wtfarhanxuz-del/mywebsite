@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+html = r'''<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -373,4 +373,9 @@ footer {
 </footer>
 
 </body>
-</html>
+</html>'''
+
+with open("index.html", "w", encoding="utf-8") as file:
+    file.write(html)
+
+print("Website created successfully!")
